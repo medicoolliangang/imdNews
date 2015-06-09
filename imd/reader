@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+  News App
+</title>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,width=device-width">
+    <meta name="description" content="“睿医”（i-MD）是由上海睿医信息科技有限公司开发运营，致力于运用互联网以及移动互联网领域的创新科技搭建专业医生的服务平台，为医生提供专业的、即时的以及个性化的医学信息服务。服务主要对象是中国执业医师， 并兼顾未取得执业证书的住院医师及医学院校在读学生。">
+    <meta name="keywords" content="睿医,i-md,imd,医疗新媒体,医学资讯,文献服务,免费全文下载,视频会议,诊疗指南,病历,学术会议,专家讲座,手术视频,教学视频,在线医疗援助,一站式医生服务平台">
+    
+  <link rel="stylesheet" media="screen" href="http://s.i-md.com/news/assets/compiled.css">
+  </head>
+  <body>
+    <div id="news-reader-body"><div id="news-reader">
+  <div class="p k" style="display:none">
+    <header class="h">
+      <button class="pb-u"><span class="r"></span></button>
+      <div class="ob-i"></div>
+      <div class="qb-u-rb">
+        <button class="sb-u"><span class="r"></span></button>
+        <button class="ub-u">
+          <span class="vb">我的订阅</span><div class="r"></div>
+        </button>
+      </div>
+    </header>
+    <div class="F Q-H">
+      <ul class="Q"></ul>
+      <div class="e-v">
+        <div class="e-r"></div>
+        <div class="e-s">加载中</div>
+      </div>
+    </div>
+    <div class="K"></div>
+    <div class="X-v-E">
+      <div class="X-v ub-v"></div>
+    </div>
+  </div>
+  <div class="p o" style="display:none">
+    <header class="h">
+      <h2 class="i"></h2>
+      <div class="q"><button class="s-t-u"><span class="r"></span></button><button class="z-u"><span class="r"></span></button><button class="B-u"><span class="r"></span></button><div class="s-t-v"><span class="x s-t-y">小</span><span class="x s-t-L">中</span><span class="x s-t-M">大</span></div><div class="B-v"><div class="x B-Lc-Mc" data-type="mail"><span class="r"> </span>邮件分享</div><div class="x B-Lc-pc" data-type="sina"><span class="r"> </span>分享到新浪微博</div><div class="x B-Lc-qc" data-type="netease"><span class="r"> </span>分享到网易微博</div><div class="x B-Lc-rc" data-type="tencent"><span class="r"> </span>分享到腾讯微博</div></div>
+      </div>
+      <button class="C-u"><span class="r"></span></button>
+    </header>
+    <div class="D-E">
+      <div class="D">
+        <span class="Db"></span>
+        <span class="time"></span>
+      </div>
+    </div>
+    <div class="F">
+      <div class="G-E">
+        <div class="G-H">
+          <div class="G"></div>
+          <div class="N-O-E"><button class="N-O">查看网页相关资讯</button></div>
+          <div class="eof"></div>
+        </div>
+      </div>
+    </div>
+    <div class="K"></div>
+  </div>
+  <div class="p kb" style="display:none"></div>
+  <div id="popup-message" class="kb-lb" style="display:none"><div class="G"></div></div>
+</div>
+</div>
+    
+    
+    <script src="http://s.i-md.com/news/assets/compiled.js"></script>
+        
+    <script>
+      var config = {
+        imageloaderWorkerPath: "http://www.i-md.com/news/reader/assets/imageloader_worker.js",
+        fetcherWorkerPath: "http://www.i-md.com/news/reader/assets/fetcher_worker.js",
+        apiBase: "http://www.i-md.com/news/reader/"
+      };
+      (function() {
+        var data = {};
+        imd.news.reader.launcher.Launcher.init(data);
+      })();
+    </script>
+  </body>
+</html>
